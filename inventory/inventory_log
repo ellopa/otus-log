@@ -1,0 +1,11 @@
+[webservers]
+ansible_host=192.168.56.10 ansible_private_key_file=.vagrant/machines/nginx/virtualbox/private_key
+
+[rsyslogservers]
+ansible_host=192.168.56.15 ansible_private_key_file=.vagrant/machines/nginx/virtualbox/private_key
+
+[elkservers]
+ansible_host=192.168.56.12 ansible_private_key_file=.vagrant/machines/nginx/virtualbox/private_key
+
+
+
